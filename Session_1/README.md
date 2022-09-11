@@ -33,7 +33,7 @@ Nice to meet you, Jacqueline
 <h3>Q3</h3>
 Christmas is near! Complete function <i>holidaybush</i> take takes in 1 parameter: an integer (n) indicating the level of the tree. 
 
-For example, holidaybush(5) should print a Christmas tree of 5 levels like so:
+For example, <i>holidaybush(5)</i> should print a Christmas tree of 5 levels like so:
  ```
      +
     +++
