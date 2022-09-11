@@ -35,9 +35,9 @@ Christmas is near! Complete function <i>holidaybush</i> take takes in 1 paramete
 
 For example, holidaybush(5) should print a Christmas tree of 5 levels like so:
  ```
-    +
-   +++
-  +++++
+     +
+    +++
+   +++++
   +++++++
-+++++++++
+ +++++++++
 ```
