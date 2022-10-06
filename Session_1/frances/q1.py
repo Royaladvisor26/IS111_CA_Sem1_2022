@@ -5,3 +5,4 @@ def repeater():
     print("The string is: " + my_prompt*int_repeater)
 
 repeater()
+repeater()
