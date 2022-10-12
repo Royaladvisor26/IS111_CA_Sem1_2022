@@ -96,7 +96,14 @@ encode("AAaabBBBBcCCd")
 >>> "2A2a1b4B1c2C1d"
 encode("xxyxyx")
 >>> "2x1y1x1y1x"
-encode("111122")
+encode("111122")``
 >>> "4[1]2[2]"
 encode("aa22b888cc")
 >>> "2a2[2]1b3[8]2c"
+
+
+print(encode("aaabbccc") == "3a2b3c")
+print(encode("AAaabBBBBcCCd") == "2A2a1b4B1c2C1d")
+print(encode("xxyxyx") == "2x1y1x1y1x")
+print(encode("111122") == "4[1]2[2]")
+print(encode("aa22b888cc") == "2a2[2]1b3[8]2c")
